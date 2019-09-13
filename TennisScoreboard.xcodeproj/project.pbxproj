@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CCCF8EEE232AAFE600577815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8EED232AAFE600577815 /* AppDelegate.swift */; };
-		CCCF8EF0232AAFE600577815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8EEF232AAFE600577815 /* ViewController.swift */; };
-		CCCF8EF3232AAFE600577815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCF8EF1232AAFE600577815 /* Main.storyboard */; };
 		CCCF8EF5232AAFE600577815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCF8EF4232AAFE600577815 /* Assets.xcassets */; };
 		CCCF8EF8232AAFE600577815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCF8EF6232AAFE600577815 /* LaunchScreen.storyboard */; };
 		CCCF8F03232AAFE600577815 /* TennisScoreboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8F02232AAFE600577815 /* TennisScoreboardTests.swift */; };
+		CCCF8F0E232AB23700577815 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8F0D232AB23700577815 /* ScoreboardViewController.swift */; };
+		CCCF8F13232ABE7200577815 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8F11232ABC9400577815 /* Score.swift */; };
+		CCCF8F15232ABEF400577815 /* ScoreboardViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8F0F232AB52D00577815 /* ScoreboardViewControllerTests.swift */; };
+		CCCF8F17232AD03600577815 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8F16232AD03600577815 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +30,16 @@
 /* Begin PBXFileReference section */
 		CCCF8EEA232AAFE600577815 /* TennisScoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisScoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCF8EED232AAFE600577815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCCF8EEF232AAFE600577815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCCF8EF2232AAFE600577815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCCF8EF4232AAFE600577815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCCF8EF7232AAFE600577815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCF8EF9232AAFE600577815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCF8EFE232AAFE600577815 /* TennisScoreboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisScoreboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCF8F02232AAFE600577815 /* TennisScoreboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisScoreboardTests.swift; sourceTree = "<group>"; };
 		CCCF8F04232AAFE600577815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCF8F0D232AB23700577815 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
+		CCCF8F0F232AB52D00577815 /* ScoreboardViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardViewControllerTests.swift; sourceTree = "<group>"; };
+		CCCF8F11232ABC9400577815 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		CCCF8F16232AD03600577815 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,13 @@
 		CCCF8EEC232AAFE600577815 /* TennisScoreboard */ = {
 			isa = PBXGroup;
 			children = (
+				CCCF8F11232ABC9400577815 /* Score.swift */,
 				CCCF8EED232AAFE600577815 /* AppDelegate.swift */,
-				CCCF8EEF232AAFE600577815 /* ViewController.swift */,
-				CCCF8EF1232AAFE600577815 /* Main.storyboard */,
 				CCCF8EF4232AAFE600577815 /* Assets.xcassets */,
 				CCCF8EF6232AAFE600577815 /* LaunchScreen.storyboard */,
 				CCCF8EF9232AAFE600577815 /* Info.plist */,
+				CCCF8F0D232AB23700577815 /* ScoreboardViewController.swift */,
+				CCCF8F16232AD03600577815 /* Game.swift */,
 			);
 			path = TennisScoreboard;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		CCCF8F01232AAFE600577815 /* TennisScoreboardTests */ = {
 			isa = PBXGroup;
 			children = (
+				CCCF8F0F232AB52D00577815 /* ScoreboardViewControllerTests.swift */,
 				CCCF8F02232AAFE600577815 /* TennisScoreboardTests.swift */,
 				CCCF8F04232AAFE600577815 /* Info.plist */,
 			);
@@ -179,7 +185,6 @@
 			files = (
 				CCCF8EF8232AAFE600577815 /* LaunchScreen.storyboard in Resources */,
 				CCCF8EF5232AAFE600577815 /* Assets.xcassets in Resources */,
-				CCCF8EF3232AAFE600577815 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCCF8EF0232AAFE600577815 /* ViewController.swift in Sources */,
+				CCCF8F0E232AB23700577815 /* ScoreboardViewController.swift in Sources */,
+				CCCF8F13232ABE7200577815 /* Score.swift in Sources */,
 				CCCF8EEE232AAFE600577815 /* AppDelegate.swift in Sources */,
+				CCCF8F17232AD03600577815 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCF8F15232ABEF400577815 /* ScoreboardViewControllerTests.swift in Sources */,
 				CCCF8F03232AAFE600577815 /* TennisScoreboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +229,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CCCF8EF1232AAFE600577815 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCCF8EF2232AAFE600577815 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CCCF8EF6232AAFE600577815 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
